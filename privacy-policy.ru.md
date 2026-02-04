@@ -60,4 +60,4 @@
 
 Если у вас есть вопросы, связанные с Политикой конфиденциальности, свяжитесь с нами:
 
-**Email:** thesisaudit@gmail.com
+**Email:** dojo4educationreport@gmail.com
