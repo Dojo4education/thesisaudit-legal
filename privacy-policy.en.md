@@ -60,4 +60,4 @@ Any changes will be published on this page.
 
 If you have any questions about this Privacy Policy, please contact us:
 
-**Email:** thesisaudit@gmail.com
+**Email:** dojo4educationreport@gmail.com
