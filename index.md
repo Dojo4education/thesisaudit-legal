@@ -35,6 +35,6 @@ Please choose your preferred language:
 
 Authentication options:
 - **Email + password**
-- **Telegram (via bot start link)**
+- **Telegram (via bot start link)** 
 
 _Last updated: February 2026_
