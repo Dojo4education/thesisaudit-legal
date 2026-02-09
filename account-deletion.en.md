@@ -20,7 +20,7 @@ When you delete your account, we delete all user-related data, including:
 
 ## Deletion timeline
 Deletion is performed after user confirmation.  
-(If you use backups: specify how long backups may be retained and that they are overwritten on a rolling basis.)
+
 
 ## If you cannot delete the account in the app
 Email us from the address associated with the account:
