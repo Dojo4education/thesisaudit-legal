@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThesisAudit — AI oral defense trainer</title>
+  <meta name="description" content="ThesisAudit helps students rehearse oral academic defense with AI-generated questions, voice answers, and structured feedback." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <meta property="og:title" content="ThesisAudit — AI oral defense trainer" />
+  <meta property="og:description" content="ThesisAudit helps students rehearse oral academic defense with AI-generated questions, voice answers, and structured feedback." />
+  <meta property="og:image" content="https://dojo4education.com/preview.jpg" />
+  <meta property="og:url" content="https://dojo4education.com/thesisaudit.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Dojo4Education" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="thesis">
+  <div class="orb2"></div>
+
+  <nav>
+    <a href="index.html" class="brand" aria-label="Dojo4Education home">
+      <span class="brand-mark">D</span>
+      Dojo<span>4</span>Education
+    </a>
+    <div class="nav-right">
+      <a class="nav-link" href="index.html#about" data-i18n="common.about">About</a>
+      <a class="nav-link" href="index.html#contact" data-i18n="common.contact">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn"><span data-i18n="common.products">Products</span> ▾</button>
+        <div class="dropdown-content">
+          <a href="thesisaudit.html">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            <span data-i18n="common.thesisAudit">ThesisAudit</span>
+          </a>
+          <a href="lingvoscenes.html">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 9h.01M11 9h.01M15 9h.01M7 15h10"/></svg>
+            <span data-i18n="common.lingvoScenes">LingvoScenes</span>
+          </a>
+          <span class="disabled-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <span data-i18n="common.lingvaPulse">LingvaPulse</span>
+            <span class="badge-soon" data-i18n="common.soon">soon</span>
+          </span>
+        </div>
+      </div>
+      <select id="lang-select" class="lang-select" aria-label="Language">
+        <option value="en">EN</option>
+        <option value="ru">RU</option>
+        <option value="ko">KO</option>
+        <option value="de">DE</option>
+        <option value="fr">FR</option>
+        <option value="es">ES</option>
+        <option value="it">IT</option>
+        <option value="ja">JA</option>
+        <option value="zh">ZH</option>
+      </select>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero center">
+      <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="thesis.eyebrow">AI oral defense trainer</span></div>
+      <h1 data-i18n-html="thesis.title">Knowing is one thing.<br><span class="grad">Explaining it aloud is another.</span></h1>
+      <p class="hero-lead" data-i18n="thesis.lead">ThesisAudit simulates an academic defense: it asks questions based on your document, accepts voice answers, and shows where your reasoning becomes weak before it happens in front of a committee.</p>
+      <div class="hero-insight">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.5" style="flex-shrink:0;margin-top:2px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span data-i18n-html="thesis.insight">A text may feel clear while reading. But when you try to answer aloud, gaps appear in <strong>logic, terminology, and argumentation</strong>. ThesisAudit helps find them early.</span>
+      </div>
+      <div class="cta-group" style="justify-content:center">
+        <a href="https://play.google.com/store/apps/details?id=com.thesisaudit.mobile" class="btn-download" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.2c-.38.2-.6.58-.6 1.05v17.5c0 .47.22.85.6 1.05l9.7-9.8-9.7-9.8Zm10.75 8.75 2.55-2.58L5.66 2.02l8.69 8.93Zm0 2.1-8.69 8.93 11.24-6.35-2.55-2.58Zm1.05-1.05 2.92 2.96 1.17-.66c.68-.38.68-1.22 0-1.6l-1.17-.66-2.92 2.96Z"/></svg>
+          <span data-i18n="thesis.download">Get it on Google Play</span>
+        </a>
+      </div>
+      <div class="btn-note" style="justify-content:center">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 12 14 14"/></svg>
+        <span data-i18n="thesis.androidNote">Android app available on Google Play</span>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section">
+      <div class="sec-label" data-i18n="thesis.useLabel">// use cases</div>
+      <h2 class="sec-title" data-i18n="thesis.useTitle">One tool for multiple oral formats</h2>
+      <div class="usecases">
+        <div class="uc-card primary">
+          <span class="uc-icon">🎓</span>
+          <div class="uc-name" data-i18n="thesis.uc1Name">Thesis defense</div>
+          <div class="uc-desc" data-i18n="thesis.uc1Desc">The main scenario. Questions about topic, methodology, conclusions, and practical value — similar to a real committee.</div>
+          <span class="uc-badge" data-i18n="thesis.uc1Badge">main scenario</span>
+        </div>
+        <div class="uc-card">
+          <span class="uc-icon">📝</span>
+          <div class="uc-name" data-i18n="thesis.uc2Name">Course paper</div>
+          <div class="uc-desc" data-i18n="thesis.uc2Desc">Practice answers about the research topic, structure, conclusions, and source selection.</div>
+        </div>
+        <div class="uc-card">
+          <span class="uc-icon">🔬</span>
+          <div class="uc-name" data-i18n="thesis.uc3Name">Lab report</div>
+          <div class="uc-desc" data-i18n="thesis.uc3Desc">Check whether you can explain not only the practical part, but also the theory behind it.</div>
+        </div>
+        <div class="uc-card">
+          <span class="uc-icon">📄</span>
+          <div class="uc-name" data-i18n="thesis.uc4Name">Essay or report</div>
+          <div class="uc-desc" data-i18n="thesis.uc4Desc">Rehearse topic explanation, argumentation, and answers to follow-up questions from a teacher.</div>
+        </div>
+        <div class="uc-card">
+          <span class="uc-icon">💬</span>
+          <div class="uc-name" data-i18n="thesis.uc5Name">Seminars</div>
+          <div class="uc-desc" data-i18n="thesis.uc5Desc">Test readiness to discuss class topics and participate with clear arguments.</div>
+        </div>
+        <div class="uc-card">
+          <span class="uc-icon">📚</span>
+          <div class="uc-name" data-i18n="thesis.uc6Name">Exams and oral tests</div>
+          <div class="uc-desc" data-i18n="thesis.uc6Desc">Model questions from learning materials and train oral answers under realistic pressure.</div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section">
+      <div class="sec-label" data-i18n="thesis.stepsLabel">// how it works</div>
+      <h2 class="sec-title" data-i18n="thesis.stepsTitle">A structured rehearsal, not just random questions</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-line"><div class="step-num">01</div><div class="step-connector"></div></div>
+          <div class="step-body"><div class="step-title" data-i18n="thesis.step1Title">Upload your material</div><div class="step-desc" data-i18n="thesis.step1Desc">Thesis, course paper, report, lecture notes, textbook chapters — any preparation document in .docx format.</div></div>
+        </div>
+        <div class="step">
+          <div class="step-line"><div class="step-num">02</div><div class="step-connector"></div></div>
+          <div class="step-body"><div class="step-title" data-i18n="thesis.step2Title">Receive questions</div><div class="step-desc" data-i18n="thesis.step2Desc">AI analyzes the material and generates questions about the topic, methodology, conclusions, practical value, and key terms.</div></div>
+        </div>
+        <div class="step">
+          <div class="step-line"><div class="step-num">03</div><div class="step-connector"></div></div>
+          <div class="step-body"><div class="step-title" data-i18n="thesis.step3Title">Answer by voice</div><div class="step-desc" data-i18n="thesis.step3Desc">Answer aloud as you would during a real defense. Voice answers are transcribed and analyzed.</div></div>
+        </div>
+        <div class="step">
+          <div class="step-line"><div class="step-num">04</div><div class="step-connector"></div></div>
+          <div class="step-body"><div class="step-title" data-i18n="thesis.step4Title">Follow-up questions</div><div class="step-desc" data-i18n="thesis.step4Desc">Based on your answers, the system asks additional questions to test depth of understanding and argument logic.</div></div>
+        </div>
+        <div class="step">
+          <div class="step-line"><div class="step-num">05</div></div>
+          <div class="step-body"><div class="step-title" data-i18n="thesis.step5Title">Get the final report</div><div class="step-desc" data-i18n="thesis.step5Desc">A detailed report with readiness level, strengths, weak points, and specific areas to improve before the real defense.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section">
+      <div class="sec-label" data-i18n="thesis.valueLabel">// value</div>
+      <h2 class="sec-title" data-i18n="thesis.valueTitle">A safe space for real rehearsal</h2>
+      <div class="value-grid">
+        <div class="val-item"><div class="val-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div class="val-text"><strong data-i18n="thesis.value1Title">Find weak points early</strong><span data-i18n="thesis.value1Text">Detect gaps in understanding before the real conversation with a teacher or committee.</span></div></div>
+        <div class="val-item"><div class="val-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.5"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg></div><div class="val-text"><strong data-i18n="thesis.value2Title">Train oral answers</strong><span data-i18n="thesis.value2Text">Practice explaining aloud — a different skill than simply knowing the material.</span></div></div>
+        <div class="val-item"><div class="val-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="val-text"><strong data-i18n="thesis.value3Title">Build argumentation</strong><span data-i18n="thesis.value3Text">Improve the logic of explanation, the connection between theory and practice, and the justification of conclusions.</span></div></div>
+        <div class="val-item"><div class="val-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="val-text"><strong data-i18n="thesis.value4Title">Reduce stress</strong><span data-i18n="thesis.value4Text">When you have already rehearsed a similar situation, the real defense feels less unknown.</span></div></div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section">
+      <div class="sec-label" data-i18n="thesis.creditsLabel">// credits and access</div>
+      <h2 class="sec-title" data-i18n="thesis.creditsTitle">Start for free</h2>
+      <div class="credits-row">
+        <div class="cr-card"><div class="cr-val" data-i18n="thesis.credit1Val">20</div><div class="cr-lbl" data-i18n="thesis.credit1Text">free Dojocoins after authorization</div></div>
+        <div class="cr-card"><div class="cr-val" data-i18n="thesis.credit2Val">1,000</div><div class="cr-lbl" data-i18n="thesis.credit2Text">words per 1 Dojocoin, rounded up</div></div>
+        <div class="cr-card"><div class="cr-val" data-i18n="thesis.credit3Val">Google Play</div><div class="cr-lbl" data-i18n="thesis.credit3Text">Android app distribution channel</div></div>
+      </div>
+      <div class="notice">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span data-i18n="thesis.notice">Dojocoins are used to measure document processing volume. The current free start gives 20 Dojocoins, and 1 Dojocoin covers 1,000 words with rounding up.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div data-i18n="common.footer">© 2026 Dojo4Education · Powered by AI</div>
+    <div class="footer-links">
+      <a href="index.html" data-i18n="common.about">About</a>
+      <a href="lingvoscenes.html" data-i18n="common.lingvoScenes">LingvoScenes</a>
+      <a href="https://t.me/dojo4education_official_group" target="_blank" rel="noopener noreferrer" data-i18n="common.telegram">Telegram community</a>
+    </div>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
